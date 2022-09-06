@@ -1,9 +1,5 @@
-list=[a,b,c]
-print=("list")
-flag=True
-if(flag)=:
-  print("Yes")
-else:
-  print("No")
-  
-  >>>"Yes"
+def bmax(a,b,c):
+  if a>b>c:
+      return "Yes"
+  else:
+      return "No"
