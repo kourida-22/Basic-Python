@@ -1,7 +1,12 @@
-def bmadef bmax(a,b):
-if A:a<b
-  return a<b
-elif B:a>b
-  return a>b
-elif C:a==b
-  return a==b
+1=input().split()
+a=int(1[0])
+b=int(1[1])
+
+if a<b:
+  print ("a<b")
+else:
+    if a>b:
+        print ("a>b")
+    else:
+        if a==b:
+            print ("a==b")
