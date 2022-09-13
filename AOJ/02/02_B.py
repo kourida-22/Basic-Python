@@ -1,5 +1,6 @@
-def bmax(a,b,c):
-  if a>b>c:
-      return "Yes"
+a,b,c=map(int,input(),split())
+
+  if a<b<c:
+      print("Yes")
   else:
-      return "No"
+      print("No")
