@@ -1,2 +1,3 @@
-x=[random.randint(0,100) for_in range(3)]
-print(x)
+a,b,c=sorted(map(int,raw_input().split()))
+strlist=map(str,list)
+print strlist[0]+' '+strlist[1]+' '+strlist[2]
