@@ -1,10 +1,8 @@
-1=input().split()
-a=int(1[0])
-b=int(1[1])
+a,b=(int(x) for x in input().split())
 
 if a<b:
   print ("a<b")
-else:
+elif:
     if a>b:
         print ("a>b")
     else:
