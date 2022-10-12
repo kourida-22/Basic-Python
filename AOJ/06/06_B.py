@@ -1,7 +1,11 @@
-cards = [[False for i in range(13)] for j in range(4)]
+all_cards = [(s, n) for s in ['S', 'H', 'C', 'D'] for n in range(1, 14)]
 
-pattern = ["S", "H", "C", "D"]
-if cards[i][j] == False:
-    print(pattern[i], j+1)
-    for i in range(1,53):
-    if not (i in cards):
+n = int(input())
+hold_cards = []
+for _ in range(n):
+    suit, num = input().split()
+    num = int(num)
+    hold_cards.append((suit, num))
+for card in all_cards:
+    if card not in hold_cards:
+        print(*card)
