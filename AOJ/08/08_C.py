@@ -2,7 +2,8 @@ counter = [0] * 26
 
 f = open("Sample.txt", "r" ,encoding='utf-8')
 lines = f.readlines()  
-for num in range(0,25):
+for i in range(0,26):
+     print()
 str.lower()
      line.count('a')
      line.count('b') 
