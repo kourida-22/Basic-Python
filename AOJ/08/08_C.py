@@ -41,7 +41,7 @@ for i in counter:
     
 print(counter)
 print()
-for num in range(0,25):
+for i in range(0,26):
 
 print("a =" ")
 print("b =" ")
