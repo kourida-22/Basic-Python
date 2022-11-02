@@ -1,74 +1,14 @@
-counter = [0] * 26
+import sys
+texts=sys.stdin.read()
+texts=texts.lower()
+cnt=[0]*26
 
-f = open("Sample.txt", "r" ,encoding='utf-8')
-lines = f.readlines()  
-for i in range(0,26):
-     print()
-str.lower()
-     line.count('a')
-     line.count('b') 
-     line.count('c')
-     line.count('d')
-     line.count('e')
-     line.count('f')
-     line.count('g')
-     line.count('h')
-     line.count('i')
-     line.count('j')
-     line.count('K')
-     line.count('l')
-     line.count('m')
-     line.count('n')
-     line.count('o') 
-     line.count('p')
-     line.count('q')
-     line.count('r')
-     line.count('s')
-     line.count('t')
-     line.count('u')
-     line.count('v') 
-     line.count('w')
-     line.count('x')
-     line.count('y')
-     line.count('z')
-
-f.close()
-
-sum = 0
-
-for i in counter:
-    sum += i
-    
-print(counter)
-print()
-for i in range(0,26):
-
-print("a =" ")
-print("b =" ")
-print("c =" ")
-print("d =" ")
-print("e =" ")
-print("f =" ")
-print("g =" ")
-print("h =" ")
-print("i =" ")
-print("j =" ")
-print("k =" ")
-print("l =" ")
-print("m =" ")
-print("n =" ")
-print("o =" ")
-print("p =" ")
-print("q =" ")
-print("r =" ")
-print("s =" ")
-print("t =" ")
-print("u =" ")
-print("v =" ")
-print("w =" ")
-print("x =" ")
-print("y =" ")
-print("z =" ")
-
-print()
-print("合計文字数=",sum)
+letters='abcdefghijklmnopqrstuvwxyz'
+for x in texts:
+    i=0
+    for y in letters:
+        if x==y:
+            cnt[i]+=1
+        i+=1
+for i in range(26):
+    print(letters[i]+" : "+str(cnt[i]))
