@@ -12,5 +12,4 @@ for inst in instructions:
         dice.turn_s()
     if inst == "W":
         dice.turn_w()
-
 print(dice.show_top())
