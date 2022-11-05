@@ -11,6 +11,8 @@ for i in range(n-1):
             break
     else:
         continue
+        
     break
+    
 else:
     print('Yes')
