@@ -1,6 +1,5 @@
 surfaces = list(map(int,input().split()))
 instructions = list(input())
-
 dice = Dice(surfaces)
 
 for inst in instructions:
@@ -13,3 +12,5 @@ for inst in instructions:
     if inst == "W":
         dice.turn_w()
 print(dice.show_top())
+
+
