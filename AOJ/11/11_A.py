@@ -1,5 +1,6 @@
 surfaces = list(map(int,input().split()))
 instructions = list(input())
+
 dice = Dice(surfaces)
 
 for inst in instructions:
